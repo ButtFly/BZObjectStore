@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C01BC65477147389CF16CB0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CB3F3E43BB4976B6E3EF2E /* libPods.a */; };
 		72170BE818F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72170BE718F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.m */; };
 		72170BEB18F6E9D200C9A4C1 /* BZUpdateExistsObjectWithNoRowIdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72170BEA18F6E9D200C9A4C1 /* BZUpdateExistsObjectWithNoRowIdModel.m */; };
 		72170BEE18F8327700C9A4C1 /* BZUpdateResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72170BED18F8327700C9A4C1 /* BZUpdateResponseModel.m */; };
@@ -98,7 +97,6 @@
 		7259F80018F44F04002A3416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259F7FF18F44F04002A3416 /* main.m */; };
 		7259F80418F44F04002A3416 /* BZObjectStoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259F80318F44F04002A3416 /* BZObjectStoreAppDelegate.m */; };
 		7259F80618F44F04002A3416 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7259F80518F44F04002A3416 /* Images.xcassets */; };
-		7259F80D18F44F04002A3416 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7259F80C18F44F04002A3416 /* XCTest.framework */; };
 		7259F80E18F44F04002A3416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7259F7F318F44F04002A3416 /* Foundation.framework */; };
 		7259F80F18F44F04002A3416 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7259F7F718F44F04002A3416 /* UIKit.framework */; };
 		7259F81718F44F04002A3416 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7259F81518F44F04002A3416 /* InfoPlist.strings */; };
@@ -180,8 +178,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11CB3F3E43BB4976B6E3EF2E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7202AC271918014B009C24C1 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		5489071A6D48BB26D4708C51 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		72170BE618F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZSQLiteGroupFunctionModel.h; sourceTree = "<group>"; };
 		72170BE718F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZSQLiteGroupFunctionModel.m; sourceTree = "<group>"; };
 		72170BE918F6E9D200C9A4C1 /* BZUpdateExistsObjectWithNoRowIdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZUpdateExistsObjectWithNoRowIdModel.h; sourceTree = "<group>"; };
@@ -361,7 +358,6 @@
 		7259F80318F44F04002A3416 /* BZObjectStoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZObjectStoreAppDelegate.m; sourceTree = "<group>"; };
 		7259F80518F44F04002A3416 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7259F80B18F44F04002A3416 /* BZObjectStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BZObjectStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7259F80C18F44F04002A3416 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7259F81418F44F04002A3416 /* BZObjectStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BZObjectStoreTests-Info.plist"; sourceTree = "<group>"; };
 		7259F81618F44F04002A3416 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7259F8AC18F45014002A3416 /* AppleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleLogo.png; sourceTree = "<group>"; };
@@ -386,7 +382,6 @@
 		7259F8BF18F45014002A3416 /* BZVarietyValuesItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZVarietyValuesItemModel.m; sourceTree = "<group>"; };
 		7259F8C018F45014002A3416 /* BZVarietyValuesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZVarietyValuesModel.h; sourceTree = "<group>"; };
 		7259F8C118F45014002A3416 /* BZVarietyValuesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZVarietyValuesModel.m; sourceTree = "<group>"; };
-		726EA3B619188F6C00D70AA6 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		727926A418FA15DB00A564AA /* BZAddColumnsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZAddColumnsModel.h; sourceTree = "<group>"; };
 		727926A518FA15DB00A564AA /* BZAddColumnsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZAddColumnsModel.m; sourceTree = "<group>"; };
 		727926A718FA162A00A564AA /* BZAddColumnsAddModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZAddColumnsAddModel.h; sourceTree = "<group>"; };
@@ -476,7 +471,6 @@
 		72ED0D19193AA2E100045830 /* BZObjectStoreMigration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZObjectStoreMigration.m; sourceTree = "<group>"; };
 		72ED67A41917DFA200457F1E /* BZParseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZParseModel.h; sourceTree = "<group>"; };
 		72ED67A51917DFA200457F1E /* BZParseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZParseModel.m; sourceTree = "<group>"; };
-		73A736836B224E7BB841BEB0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		821F19A81906511C00E7F96C /* BZBackgroundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZBackgroundModel.h; sourceTree = "<group>"; };
 		821F19A91906511C00E7F96C /* BZBackgroundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZBackgroundModel.m; sourceTree = "<group>"; };
 		8296BB55193738CD00622F99 /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
@@ -489,6 +483,7 @@
 		82D029EB19051DE2003B7246 /* BZArrayInArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZArrayInArrayModel.m; sourceTree = "<group>"; };
 		82D029ED19064602003B7246 /* BZOSIdenticalForthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZOSIdenticalForthModel.h; sourceTree = "<group>"; };
 		82D029EE19064602003B7246 /* BZOSIdenticalForthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZOSIdenticalForthModel.m; sourceTree = "<group>"; };
+		C46962199FF75AE0A3FDE044 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -500,7 +495,6 @@
 				7259F7F618F44F04002A3416 /* CoreGraphics.framework in Frameworks */,
 				7259F7F818F44F04002A3416 /* UIKit.framework in Frameworks */,
 				7259F7F418F44F04002A3416 /* Foundation.framework in Frameworks */,
-				3C01BC65477147389CF16CB0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +502,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7259F80D18F44F04002A3416 /* XCTest.framework in Frameworks */,
 				7259F80F18F44F04002A3416 /* UIKit.framework in Frameworks */,
 				7259F80E18F44F04002A3416 /* Foundation.framework in Frameworks */,
 			);
@@ -944,7 +937,7 @@
 				7259F81218F44F04002A3416 /* BZObjectStoreTests */,
 				7259F7F218F44F04002A3416 /* Frameworks */,
 				7259F7F118F44F04002A3416 /* Products */,
-				73A736836B224E7BB841BEB0 /* Pods.xcconfig */,
+				A04B342E17446D7F3B163830 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -961,13 +954,9 @@
 			isa = PBXGroup;
 			children = (
 				724A0CBA1923B11300AF177D /* CoreLocation.framework */,
-				726EA3B619188F6C00D70AA6 /* libPods.a */,
-				7202AC271918014B009C24C1 /* libPods.a */,
 				7259F7F318F44F04002A3416 /* Foundation.framework */,
 				7259F7F518F44F04002A3416 /* CoreGraphics.framework */,
 				7259F7F718F44F04002A3416 /* UIKit.framework */,
-				7259F80C18F44F04002A3416 /* XCTest.framework */,
-				11CB3F3E43BB4976B6E3EF2E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1216,6 +1205,15 @@
 			name = Background;
 			sourceTree = "<group>";
 		};
+		A04B342E17446D7F3B163830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5489071A6D48BB26D4708C51 /* Pods.debug.xcconfig */,
+				C46962199FF75AE0A3FDE044 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1228,6 +1226,7 @@
 				7259F7ED18F44F04002A3416 /* Frameworks */,
 				7259F7EE18F44F04002A3416 /* Resources */,
 				898E04CE3BCA4DD6AD3B90DE /* Copy Pods Resources */,
+				9B5F70FDED80343F92A970EA /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1263,7 +1262,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BZObjectStore;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "BONZOO INC.";
 				TargetAttributes = {
 					7259F80A18F44F04002A3416 = {
@@ -1324,7 +1323,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5F70FDED80343F92A970EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F43F16C3E45944D18F58713E /* Check Pods Manifest.lock */ = {
@@ -1555,6 +1569,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1616,13 +1631,14 @@
 		};
 		7259F81D18F44F04002A3416 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73A736836B224E7BB841BEB0 /* Pods.xcconfig */;
+			baseConfigurationReference = 5489071A6D48BB26D4708C51 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BZObjectStore/BZObjectStore-Prefix.pch";
 				INFOPLIST_FILE = "BZObjectStore/BZObjectStore-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1630,13 +1646,14 @@
 		};
 		7259F81E18F44F04002A3416 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73A736836B224E7BB841BEB0 /* Pods.xcconfig */;
+			baseConfigurationReference = C46962199FF75AE0A3FDE044 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BZObjectStore/BZObjectStore-Prefix.pch";
 				INFOPLIST_FILE = "BZObjectStore/BZObjectStore-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1644,7 +1661,6 @@
 		};
 		7259F82018F44F04002A3416 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73A736836B224E7BB841BEB0 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BZObjectStore.app/BZObjectStore";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1663,6 +1679,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1671,7 +1688,6 @@
 		};
 		7259F82118F44F04002A3416 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73A736836B224E7BB841BEB0 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BZObjectStore.app/BZObjectStore";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1686,6 +1702,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

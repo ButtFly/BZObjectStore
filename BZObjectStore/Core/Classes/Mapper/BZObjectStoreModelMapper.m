@@ -35,6 +35,7 @@
 #import <FMDatabaseAdditions.h>
 #import "FMDatabase+indexInfo.h"
 #import "NSObject+BZObjectStore.h"
+#import <sqlite3.h>
 
 @implementation BZObjectStoreModelMapper
 

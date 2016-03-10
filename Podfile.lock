@@ -1,0 +1,51 @@
+PODS:
+  - AutoCoding (2.2.1)
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - BZRuntime (1.0.5)
+  - Facebook-iOS-SDK (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit (= 4.1.0)
+    - Facebook-iOS-SDK/LoginKit (= 4.1.0)
+    - Facebook-iOS-SDK/ShareKit (= 4.1.0)
+  - Facebook-iOS-SDK/CoreKit (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit/no-arc (= 4.1.0)
+  - Facebook-iOS-SDK/CoreKit/no-arc (4.1.0):
+    - Bolts (~> 1.1)
+  - Facebook-iOS-SDK/LoginKit (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit
+  - Facebook-iOS-SDK/ShareKit (4.1.0):
+    - Bolts (~> 1.1)
+    - Facebook-iOS-SDK/CoreKit
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
+  - TKRGuard (1.0.2)
+
+DEPENDENCIES:
+  - AutoCoding
+  - Bolts
+  - BZRuntime
+  - Facebook-iOS-SDK
+  - FMDB
+  - Parse
+  - TKRGuard
+
+SPEC CHECKSUMS:
+  AutoCoding: b47e528426c84346371dd532b8e6458929e4da34
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  BZRuntime: fa585da7f0c2e478591bc2c57038c7ac23f46b4f
+  Facebook-iOS-SDK: f42dfb27283bf5f05e3a9edc88459a75b9892d99
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  TKRGuard: ca6c06e54143928953174a66092fa80d27369ad6
+
+COCOAPODS: 0.39.0

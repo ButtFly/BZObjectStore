@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5869731CA85A8A414C7235C9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E218D4C9BAED13F83731D5F4 /* libPods.a */; };
 		72170BE818F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72170BE718F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.m */; };
 		72170BEB18F6E9D200C9A4C1 /* BZUpdateExistsObjectWithNoRowIdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72170BEA18F6E9D200C9A4C1 /* BZUpdateExistsObjectWithNoRowIdModel.m */; };
 		72170BEE18F8327700C9A4C1 /* BZUpdateResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72170BED18F8327700C9A4C1 /* BZUpdateResponseModel.m */; };
@@ -178,6 +179,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066117FF1C9144B800D5141E /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		066118011C9144BE00D5141E /* libAutoCoding.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAutoCoding.a; path = "Pods/../build/Debug-iphoneos/libAutoCoding.a"; sourceTree = "<group>"; };
+		066118031C9144C500D5141E /* libFMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFMDB.a; path = "Pods/../build/Debug-iphoneos/libFMDB.a"; sourceTree = "<group>"; };
 		5489071A6D48BB26D4708C51 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		72170BE618F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZSQLiteGroupFunctionModel.h; sourceTree = "<group>"; };
 		72170BE718F5950D00C9A4C1 /* BZSQLiteGroupFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZSQLiteGroupFunctionModel.m; sourceTree = "<group>"; };
@@ -484,6 +488,7 @@
 		82D029ED19064602003B7246 /* BZOSIdenticalForthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZOSIdenticalForthModel.h; sourceTree = "<group>"; };
 		82D029EE19064602003B7246 /* BZOSIdenticalForthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZOSIdenticalForthModel.m; sourceTree = "<group>"; };
 		C46962199FF75AE0A3FDE044 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E218D4C9BAED13F83731D5F4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -495,6 +500,7 @@
 				7259F7F618F44F04002A3416 /* CoreGraphics.framework in Frameworks */,
 				7259F7F818F44F04002A3416 /* UIKit.framework in Frameworks */,
 				7259F7F418F44F04002A3416 /* Foundation.framework in Frameworks */,
+				5869731CA85A8A414C7235C9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -953,10 +959,14 @@
 		7259F7F218F44F04002A3416 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				066118031C9144C500D5141E /* libFMDB.a */,
+				066118011C9144BE00D5141E /* libAutoCoding.a */,
+				066117FF1C9144B800D5141E /* libPods.a */,
 				724A0CBA1923B11300AF177D /* CoreLocation.framework */,
 				7259F7F318F44F04002A3416 /* Foundation.framework */,
 				7259F7F518F44F04002A3416 /* CoreGraphics.framework */,
 				7259F7F718F44F04002A3416 /* UIKit.framework */,
+				E218D4C9BAED13F83731D5F4 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1638,6 +1648,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BZObjectStore/BZObjectStore-Prefix.pch";
 				INFOPLIST_FILE = "BZObjectStore/BZObjectStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1653,6 +1664,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BZObjectStore/BZObjectStore-Prefix.pch";
 				INFOPLIST_FILE = "BZObjectStore/BZObjectStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1678,6 +1690,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1701,6 +1714,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.bonzoo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
